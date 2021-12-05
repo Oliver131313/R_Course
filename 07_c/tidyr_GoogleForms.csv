@@ -1,0 +1,6 @@
+"Timestamp","Choose one of following (radiobutton):","Choose multiple answers (checkbox):","Radiobutton grid: [Row 1]","Radiobutton grid: [Row 2]","Radiobutton grid: [Row 3]"
+"2016/07/04 8:58:36 am EET","Option A","Option 1;Option 3","Column 2","Column 1","Column 4"
+"2016/07/04 8:58:56 am EET","Option C","Option 3","Column 4","Column 3","Column 2"
+"2016/07/04 8:59:11 am EET","Option B","Option 2","","Column 3","Column 2"
+"2016/07/04 8:59:35 am EET","Option A","Option 1;Option 2","Column 2","Column 3","Column 1"
+"2016/07/04 9:00:58 am EET","Option C","Option 1;Option 2;Option 3","Column 2","Column 3",""

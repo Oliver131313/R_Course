@@ -1,0 +1,148 @@
+library(tidyverse)
+
+df <- tibble(id = 1:5,
+             value = c(1.3, 1.7, 2.7, 3.15, 17))
+
+# Prvni dva radky
+print(df[1:2,])
+# Sloupec value
+print(df[, "value"])
+# Vektor sloupce value
+print(c(df[, "value"]))
+
+load(file = 'exdata03.RData')
+
+# Priadanie premennych
+def <- macro$gdp_nominal / macro$gdp_real * 100
+macro$deflator <- def
+macro$inflation <-
+    c(NA_real_, macro$deflator[-1] / macro$deflator[-nrow(macro)] - 1)
+macro$real_growth <-
+    c(NA_real_, macro$gdp_real[-1] / macro$gdp_real[-nrow(macro)] - 1)
+print(macro)
+
+# Korelace inflace a r_hdp
+print(cor(macro$inflation, macro$real_growth, use = "complete.obs"))
+
+# BMI
+experiment$bmi <-
+    round(experiment$weight / (experiment$height / 100) ^ 2, 1)
+print(experiment)
+
+# Pocet pozorovani
+print(nrow(experiment))
+
+
+#### REGEX
+# odhad pohlaví
+experiment$gender <- stringr::str_detect(experiment$name, "[ae]$")
+# převod na faktor
+experiment$gender <-
+    factor(
+        experiment$gender,
+        levels = c(TRUE, FALSE),
+        labels = c("female", "male")
+    )
+# Miriam, Ingrid
+experiment$gender[experiment$name == "Miriam"] <- "female"
+experiment[experiment$name == "Ingrid", "gender"] <- "female"
+# nebo naráz
+experiment$gender[experiment$name %in% c("Miriam", "Ingrid")] <-
+    "female"
+# pořadí sloupců
+experiment <-
+    experiment[, c("id", "name", "gender", "height", "weight", "bmi")]
+print(experiment)
+
+# Median BMi
+print(median(experiment$bmi))
+# Med muzi a zeny
+print(median(experiment[experiement$gender == "male", "bmi"]))
+print(median(experiment[experiement$gender == "female", "bmi"]))
+
+# Stlpec obese - obsahuje TRUE - FALSE hodnoty 
+experiment$obese <- experiment$bmi >= 30
+
+# Tabulka obese
+obese <- experiment[experiment$obese, ]
+# Zmazanie zbytocneho stlpca
+obese$obese <- NULL
+
+### Vyskusat si zoradenie
+obese[order(obese$bmi, descending = TRUE), ]
+
+
+# Ukol 8
+
+# Varianta 1
+obese$group <- FALSE
+# sample(N, n), kde N - nahodny vyber n hodnot od 1, 2,...,N
+smpl <- sample(nrow(obese), nrow(obese) / 2)
+# Vytvorenie stlpca kde True predstavuje tych, ktorych index bol nahodne
+#  vygenerovany
+obese$group[smpl] <- TRUE
+# Facto, ktory ich podla TRUE and FALSE hodnot rozdeli do skupin na control a treatment
+obese$group <-
+    factor(
+        obese$group,
+        levels = c(TRUE, FALSE),
+        labels = c("control", "treatment")
+    )
+
+# varianta 2 - Lepsia varianta
+# rep_len(x, times), kde x - nam da hodnotu zo specifikovaneho vektora times krat
+obese$group <- sample(rep_len(1:2, nrow(obese)), nrow(obese))
+obese$group <-
+    factor(obese$group,
+           levels = 1:2,
+           labels = c("control", "treatment"))
+
+# varianta 3
+obese$group <-
+    factor(sample(rep_len(c("control", "treatment"), nrow(obese)), nrow(obese)))
+
+# výpis výsledku
+obese
+
+# Ukol 9
+# počet pozorování ve skupinách
+treatment_all <- nrow(obese[obese$group == "treatment", ])
+control_all <- sum(obese$group == "control")
+print(c(control = control_all, treatment = treatment_all))
+
+# table urobi kontingencnu tabulku z pocetnostou jednotlivych hodnot v stlpci
+table(obese$group)
+
+# To iste ale proporcne
+prop.table(table(obese$group))
+
+# počet žen ve skupinách
+treament_females <- nrow(obese[obese$group == "treatment" & obese$gender == "female", ])
+control_females <- sum(obese$group == "control" & obese$gender == "female")
+# podíl žen ve skupinách
+c(treatment = treament_females / treatment_all,
+  control = control_females / control_all)
+
+# nebo také
+table(obese$group, obese$gender)
+
+# kontingencna tabulka s proporciami
+prop.table(table(obese$group, obese$gender), margin = 1)
+
+# test shodného podílu žen
+prop.test(c(treament_females, control_females), c(treatment_all, control_all))
+
+# průměrné BMI ve skupinách
+c(treatment = mean(obese$bmi[obese$group == "treatment"]),
+  control = mean(obese$bmi[obese$group == "control"]))
+
+# t-test (dvě alternativy zadání)
+t.test(obese$bmi[obese$group == "treatment"], obese$bmi[obese$group == "control"])
+
+# Lepsie, praktickejsie, krajsie !!!
+t.test(bmi ~ group, data = obese)
+
+
+
+# JSTE NA SEZNAMU
+# Ukol 1

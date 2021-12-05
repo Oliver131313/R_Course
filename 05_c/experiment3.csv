@@ -1,0 +1,351 @@
+Toto jsou data z vymy¹leného lékaøského experimentu
+"Promìnné mají následující význam:"
+id:jednoznaèný identifikátor subjektu
+name:kódové jméno subjektu
+height:vý¹ka subjektu
+weight:váha subjejktu
+treatment:skupina
+value:objem selenu v oèní bulvì v mikrogramech
+id:name:height:weight:treatment:value
+1:Valérie:176:121:control:2
+2:Gabriela:195:95:group A:1,62
+3:Nina:201:115:control:1,91
+4:Miloslava:174:96:control:1,95
+5:Julius:157:53:group B:2,58
+6:Jitka:161:61:group A:1,11
+7:Ignác:187:119:group A:2,37
+8:Antonín:162:72:group B:1
+9:Jana:194:85:group A:2,03
+10:Robin:203:74:control:1,09
+11:Igor:165:99:group A:1,84
+12:Alice:166:84:group A:2,5
+13:Jeroným:153:120:group A:2,22
+14:Boleslav:203:122:group B:1,77
+15:Stela:177:68:control:1,42
+16:Ljuba:192:76:group B:2,74
+17:Du¹an:159:104:control:2,15
+18:Roland:151:54:group A:2,93
+19:Dobroslav:171:73:group B:2,24
+20:Vìroslav:201:122:control:0,91
+21:Ludvík:167:53:control:0,72
+22:Lenka:205:49:group A:1,46
+23:Hana:187:118:group A:1,03
+24:Zdeòka:168:59:group B:1,14
+25:Veronika:149:94:control:1,54
+26:Felix:150:87:control:0,98
+27:Ludìk:169:127:group A:1,63
+28:Milena:177:113:control:1,28
+29:Lada:179:60:group B:1,2
+30:Hynek:160:88:control:2,22
+31:Dita:154:52:group A:1,89
+32:Alexandr:188:130:group B:1,86
+33:Tadeá¹:166:121:group A:1,02
+34:Filip:153:87:group A:2,96
+35:Svatopluk:165:66:control:1,41
+36:Michal:205:95:control:1,92
+37:Olga:161:54:group A:1,12
+38:Ondøej:169:119:group B:2,24
+39:Irma:197:117:control:2,13
+40:Vlasta:175:68:group B:2,45
+41:Zita:198:85:control:2,63
+42:Laura:171:128:group A:1,05
+43:Jan:200:87:group A:1,87
+44:Svatava:154:101:control:2,93
+45:Eduard:191:73:control:1,18
+46:Emanuel:205:63:group A:2,39
+47:Vojtìch:168:51:group A:2,19
+48:®aneta:172:93:group A:1,79
+49:Ludmila:190:94:group B:1,97
+50:Jarmila:202:65:control:1,77
+51:Josef:202:60:group A:2,48
+52:Miloslav:192:123:control:1,86
+53:Maxmilián:152:85:control:1,73
+54:Ane¾ka:181:130:group B:1,07
+55:Bohumír:182:107:group A:1,87
+56:Oldøich:177:78:group A:2,27
+57:Jakub:202:104:group A:1,21
+58:Adéla:154:119:group B:1,78
+59:Ilona:186:80:group B:2,17
+60:Zbynìk:166:115:group A:1,39
+61:Kvido:198:53:group B:2,8
+62:Bohdan:195:88:group B:2,32
+63:Gita:188:108:group B:1,68
+64:Bìla:153:54:control:0,73
+65:Václav:163:112:group A:2,25
+66:Viktor:156:94:group A:1,32
+67:Vanda:176:92:group B:2,27
+68:Diana:204:103:control:2,41
+69:Ester:168:64:control:2,28
+70:Ivana:194:98:group B:2,03
+71:Helena:149:85:group A:2,73
+72:Ladislav:157:99:control:1,18
+73:Karina:195:94:group B:0,99
+74:Valdemar:190:86:group A:2,27
+75:Gabriel:187:80:group A:1,57
+76:Jaroslav:174:92:control:2,97
+77:Marcela:178:92:group A:2,1
+78:©árka:203:83:control:1,81
+79:Nora:189:105:group A:1,79
+80:Augustýn:182:62:control:2,85
+81:Bruno:192:57:control:2,04
+82:Klára:166:64:group A:1,02
+83:Daniel:198:53:group B:0,99
+84:Beáta:181:80:control:1,83
+85:Ivona:181:98:group A:2,78
+86:Alexej:156:68:group A:2,85
+87:Lubomír:166:86:control:2,02
+88:Rudolf:205:51:group B:2,6
+89:Oldøi¹ka:194:83:group A:2,3
+90:Drahoslava:151:96:control:2,59
+91:Havel:172:64:group A:2,8
+92:Kvìta:162:50:group B:2,57
+93:Drahomíra:188:102:group B:0,77
+94:Robert:157:103:group B:0,89
+95:Sabina:198:51:control:1,39
+96:Zora:191:77:control:1,07
+97:Marek:204:112:group B:2,96
+98:Arno¹t:194:80:group A:1,93
+99:Hugo:197:129:group A:2,39
+100:Lubor:158:64:group B:2,27
+101:Bohumil:157:90:control:0,86
+102:Tomá¹:187:82:group B:0,92
+103:Milu¹e:175:86:group A:2,82
+104:Zby¹ek:162:120:control:2,73
+105:Drahoslav:156:82:group B:1,72
+106:Bøetislav:184:91:group B:0,87
+107:Luká¹:150:79:group A:2,05
+108:Vilma:195:78:group B:2,03
+109:Rostislav:204:117:group A:1,29
+110:Albert:203:116:group B:1,7
+111:Jarmil:173:119:group A:1,47
+112:Bla¾ena:160:113:group B:2,06
+113:Jolana:177:92:group B:0,99
+114:Aneta:181:61:control:0,77
+115:Emílie:201:112:group A:0,93
+116:Benjamín:171:107:control:2,58
+117:Magdaléna:204:98:group A:0,83
+118:Matìj:176:75:group B:0,75
+119:Svìtlana:157:66:group B:1,91
+120:Erika:169:117:group B:2,47
+121:Marina:175:117:group A:2,98
+122:Marcel:182:54:control:1,67
+123:Dominik:185:58:group A:2,31
+124:Artur:162:97:group A:2,99
+125:Saskie:193:111:group A:1,43
+126:Kry¹tof:173:112:group B:1,35
+127:Ctirad:178:64:group B:2,33
+128:Barbora:200:100:group B:1,53
+129:Prokop:187:117:group B:1,3
+130:Pankrác:201:59:group B:2,46
+131:Ilja:190:124:group B:1,6
+132:Zdenìk:191:78:group B:1,99
+133:Adriana:156:90:group B:1,94
+134:Stanislava:186:84:group B:1,27
+135:Roman:167:57:control:2,02
+136:Patrik:189:68:group B:2,73
+137:Bla¾ej:168:90:group B:2,06
+138:Martin:151:108:control:1,78
+139:Richard:181:83:group A:2,97
+140:Pavla:161:123:group B:0,87
+141:Vincenc:195:89:control:2,01
+142:Radomír:166:62:group A:0,94
+143:Dorota:170:75:group A:1,35
+144:Antonie:181:89:group B:1,22
+145:Tamara:196:97:group B:1,52
+146:Radana:177:124:group B:1,05
+147:Leona:202:89:control:0,82
+148:Tereza:153:72:group A:1,75
+149:Matou¹:168:106:group A:1,15
+150:Alois:170:70:control:2,33
+151:Anna:152:88:control:0,7
+152:©tìpán:185:71:group A:1,63
+153:Xenie:178:103:group B:2,86
+154:Karolína:197:52:group A:2,66
+155:Jindøi¹ka:188:55:group B:0,8
+156:Hanu¹:189:51:control:1,02
+157:Al¾bìta:202:129:group A:1,72
+158:Milo¹:175:121:control:1,44
+159:Gizela:179:71:group A:2,67
+160:Lucie:186:115:control:2,51
+161:Ctibor:192:71:group A:2,68
+162:Brigita:163:99:group A:2,24
+163:Svatoslav:168:75:group B:1,64
+164:Albína:182:95:control:2,89
+165:Zikmund:171:105:control:1,73
+166:Radim:192:66:group B:0,99
+167:Jaromír:199:115:group A:1,07
+168:Viktorie:179:107:control:2,02
+169:Vendula:166:60:control:2,03
+170:Milan:203:104:group B:1,26
+171:Simona:165:122:group A:2,44
+172:Radmila:150:66:group A:1,26
+173:Dalimil:177:58:group B:2,53
+174:Èestmír:166:69:group B:1,93
+175:Vladan:150:50:group A:2,22
+176:Bohdana:188:57:group B:2,38
+177:Pravoslav:159:127:group B:2,48
+178:Edita:195:75:control:2,92
+179:Radovan:203:64:group B:1,67
+180:Vladislav:182:117:control:1,19
+181:Doubravka:177:106:group B:1,12
+182:Slavomír:155:66:group B:1,67
+183:Ingrid:190:105:control:2,13
+184:Otýlie:185:103:group A:2,87
+185:Zdislava:193:69:group A:1,06
+186:Marika:158:85:group B:0,77
+187:Nela:199:108:group A:2,79
+188:Dobromila:186:54:control:2,79
+189:Milada:205:85:control:2,81
+190:Apolena:175:92:group B:2,43
+191:Mojmír:194:87:group B:2,24
+192:Bo¾ena:170:55:group A:2,84
+193:Slavìna:184:105:control:2,15
+194:Vìnceslav:177:129:control:2,07
+195:Valentýn:167:99:group B:1,64
+196:Jiøina:195:109:group B:0,71
+197:Petr:162:51:control:1,21
+198:Liliana:154:71:group A:1,6
+199:Lumír:185:55:control:1,08
+200:Horymír:149:123:group A:1,81
+201:Bedøich:176:70:control:1,97
+202:Kamil:186:55:group A:0,79
+203:Kazimír:179:122:group A:1,65
+204:Miroslav:158:102:group A:2,51
+205:Andìla:168:92:group B:2,24
+206:Øehoø:160:67:control:1,54
+207:Rù¾ena:183:79:group B:2,13
+208:Ida:179:55:group B:0,8
+209:Vlastimil:170:122:group A:0,94
+210:Radek:173:98:group B:0,75
+211:Marián:197:98:group A:1,86
+212:Soòa:198:115:group B:1,09
+213:Ta»ána:200:59:group B:2,96
+214:Miroslava:150:57:control:0,91
+215:Ema:167:55:group B:1,68
+216:Darja:158:96:control:1,51
+217:Izabela:149:119:group B:1,92
+218:Ale¹:198:125:control:2,53
+219:Anastázie:152:119:group B:1,63
+220:Alexandra:154:51:control:1,29
+221:Ev¾enie:161:68:group B:1,84
+222:Jiøí:165:54:group B:1,71
+223:Oto:153:60:group B:1,9
+224:Vlastislav:160:57:group B:1,76
+225:Blahoslav:161:96:group A:1,59
+226:Kvìtoslav:163:126:control:2,07
+227:Klaudie:195:125:control:1,1
+228:Radoslav:191:67:control:2,17
+229:Stanislav:169:91:group A:1,18
+230:Servác:195:76:group A:2,99
+231:Bonifác:179:93:group A:2,28
+232:®ofie:197:86:group A:0,98
+233:Pøemysl:181:94:group B:2,44
+234:Nata¹a:163:58:group B:1,89
+235:Ivo:173:89:group A:1,25
+236:Monika:150:90:control:2,17
+237:Emil:164:54:control:0,83
+238:Vladimír:174:90:control:0,74
+239:Viola:173:120:group B:2,57
+240:Vilém:151:56:group A:2,07
+241:Ferdinand:189:116:control:1,87
+242:Kamila:153:124:group A:2,85
+243:Dalibor:169:119:group A:2,67
+244:Norbert:163:57:group B:0,97
+245:Medard:167:119:group A:0,87
+246:Vít:189:114:group A:1,1
+247:Adolf:162:49:group A:1,54
+248:Leo¹:204:50:group B:2,4
+249:Ivan:190:66:control:2,65
+250:Jaroslava:168:120:group A:1,7
+251:Patricie:203:102:group A:0,91
+252:Bohuslava:154:72:control:1,77
+253:Boøek:159:84:group B:0,83
+254:Markéta:159:65:group B:1,98
+255:Jindøich:192:89:group A:1,8
+256:Lubo¹:187:90:control:2,33
+257:Martina:169:118:group B:2,13
+258:Èenìk:170:53:group A:1,19
+259:Vítìzslav:197:106:control:2,74
+260:Libor:175:70:control:1,32
+261:Kristýna:168:128:group B:2,83
+262:Marta:160:125:control:1,08
+263:Boøivoj:205:101:control:0,9
+264:Oskar:159:86:control:2,29
+265:Gustav:180:97:control:1,43
+266:Kristián:176:56:control:1,55
+267:Sobìslav:154:98:group A:2,17
+268:Vavøinec:165:63:control:1,42
+269:Zuzana:164:105:control:2,88
+270:Alena:150:57:group A:2,88
+271:Jáchym:178:72:group A:1,09
+272:Petra:158:106:group B:1,8
+273:Bernard:160:92:group A:2,07
+274:Johana:165:88:control:2
+275:Bohuslav:154:124:control:0,94
+276:Sandra:186:79:group B:0,94
+277:Bartolomìj:162:59:group A:0,79
+278:Otakar:154:71:control:1,03
+279:Evelína:168:102:group B:2,08
+280:Vladìna:160:99:control:2,04
+281:Pavlína:177:94:control:0,95
+282:Bronislav:200:121:control:2,57
+283:Boris:150:111:control:1,62
+284:Regína:186:61:control:0,9
+285:Mariana:178:66:group B:2,99
+286:Daniela:163:98:group B:1,72
+287:Denisa:182:70:group B:0,76
+288:Marie:160:119:group B:2,69
+289:Radka:167:119:group A:1,09
+290:Nadì¾da:192:101:control:2,76
+291:Oleg:182:120:control:1,28
+292:Darina:175:94:group B:1,28
+293:Berta:151:118:group A:1,34
+294:Zlata:154:120:control:1,47
+295:Andrea:162:128:group B:2,37
+296:Joná¹:164:101:group B:1,46
+297:Franti¹ek:149:57:group A:1,64
+298:Eli¹ka:181:56:group A:1,08
+299:Justýna:200:104:control:1,86
+300:Vìra:159:71:group A:2,8
+301:Andrej:197:113:control:2,08
+302:Renáta:167:123:group B:1,98
+303:Agáta:204:106:group A:2,22
+304:Hedvika:175:55:control:0,94
+305:Vendelín:189:121:control:2,24
+306:Teodor:175:120:group A:1,88
+307:Erik:183:87:control:1,05
+308:Silvie:151:120:control:1,53
+309:©tìpánka:168:66:group B:2,41
+310:Hubert:149:58:group B:0,96
+311:Karel:192:53:group A:2,23
+312:Miriam:150:122:group B:2,77
+313:Libìna:193:128:control:1,59
+314:Ev¾en:149:109:group A:1,3
+315:Benedikt:187:105:group B:2,27
+316:Tibor:150:88:group A:1,69
+317:Sáva:198:129:group A:2,73
+318:Leopold:168:69:group A:0,82
+319:Otmar:163:91:group B:2,09
+320:Mahulena:192:64:group A:2
+321:Romana:180:56:group A:2,31
+322:Nikola:202:85:control:2,24
+323:Cecílie:162:62:group B:1,19
+324:Klement:155:126:group A:1,22
+325:Kateøina:172:112:control:0,93
+326:René:197:91:group A:1,73
+327:Zina:171:130:group B:1,19
+328:Iva:176:77:group A:2,71
+329:Blanka:181:55:control:1,63
+330:Mikulá¹:179:129:group A:2,54
+331:Kvìtoslava:184:122:group B:1,28
+332:Vratislav:179:103:control:1,13
+333:Julie:193:66:group A:1,39
+334:Dana:179:121:control:1,19
+335:Lýdie:175:94:group A:2,75
+336:Dagmar:203:74:control:2,8
+337:Natálie:149:92:group B:1,71
+338:©imon:160:83:control:2,4
+339:Bohumila:169:128:control:0,93
+340:Judita:173:56:group B:2,83
+341:David:154:77:control:0,91
+342:Silvestr:204:65:control:2,44

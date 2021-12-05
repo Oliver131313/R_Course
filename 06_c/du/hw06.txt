@@ -1,0 +1,48 @@
+        "John Tolkien"         | h: 175 cm | w:  57   kg
+    "Fjodor R. R. Tolstoj"     | h: 155 cm | w:  74   kg
+        "Frank Čapek"          | h: 164 cm | w:  109  kg
+    "Frank R. R. Tolkien"      | h: 159 cm | w:  53   kg
+   "Lev R. R. Dostojevský"     | h: 201 cm | w:  54   kg
+        "Fjodor Čapek"         | h: 186 cm | w:  87   kg
+  "Ronald R. R. Dostojevský"   | h: 192 cm | w:  76   kg
+       "Frank Tolstoj"         | h: 202 cm | w:  121  kg
+         "Lev Čapek"           | h: 180 cm | w:  55   kg
+     "Fjodor V. Tolkien"       | h: 197 cm | w:  56   kg
+   "Fjodor V. Dostojevský"     | h: 189 cm | w:  77   kg
+    "Fjodor R. R. Tolkien"     | h: 154 cm | w:  130  kg
+       "Fjodor Tolstoj"        | h: 174 cm | w:  51   kg
+       "Ronald Tolkien"        | h: 158 cm | w:  71   kg
+     "Lev R. R. Herbert"       | h: 167 cm | w:  127  kg
+      "John Dostojevský"       | h: 193 cm | w:  119  kg
+    "Ronald R. R. Tolkien"     | h: 166 cm | w:  73   kg
+    "Frank V. Dostojevský"     | h: 177 cm | w:  79   kg
+      "Lev Dostojevský"        | h: 185 cm | w:  59   kg
+     "Fjodor Dostojevský"      | h: 183 cm | w:  93   kg
+     "Fjodor V. Tolstoj"       | h: 184 cm | w:  122  kg
+      "Lev V. Steinbeck"       | h: 182 cm | w:  113  kg
+      "Karel V. Tolkien"       | h: 171 cm | w:  94   kg
+     "Frank V. Steinbeck"      | h: 172 cm | w:  64   kg
+      "Ronald Steinbeck"       | h: 178 cm | w:  68   kg
+     "Ronald V. Tolkien"       | h: 200 cm | w:  108  kg
+  "Fjodor R. R. Dostojevský"   | h: 176 cm | w:  81   kg
+    "Frank R. R. Herbert"      | h: 170 cm | w:  104  kg
+       "Karel Tolstoj"         | h: 188 cm | w:  69   kg
+       "John Steinbeck"        | h: 156 cm | w:  58   kg
+     "Frank Dostojevský"       | h: 179 cm | w:  80   kg
+       "Karel Tolkien"         | h: 153 cm | w:  92   kg
+       "Lev Steinbeck"         | h: 195 cm | w:  63   kg
+      "Frank V. Tolkien"       | h: 169 cm | w:  125  kg
+      "Karel V. Herbert"       | h: 199 cm | w:  96   kg
+       "Lev V. Herbert"        | h: 181 cm | w:  131  kg
+       "Ronald Herbert"        | h: 194 cm | w:  85   kg
+   "Frank R. R. Steinbeck"     | h: 196 cm | w:  110  kg
+      "John R. R. Čapek"       | h: 198 cm | w:  78   kg
+    "Frank R. R. Tolstoj"      | h: 191 cm | w:  86   kg
+     "Fjodor R. R. Čapek"      | h: 173 cm | w:  106  kg
+     "John R. R. Herbert"      | h: 168 cm | w:  52   kg
+      "John V. Tolkien"        | h: 160 cm | w:  115  kg
+      "Frank V. Herbert"       | h: 203 cm | w:  117  kg
+     "Karel R. R. Čapek"       | h: 151 cm | w:  105  kg
+     "Lev R. R. Tolkien"       | h: 162 cm | w:  90   kg
+    "Karel R. R. Tolstoj"      | h: 161 cm | w:  65   kg
+      "Fjodor V. Čapek"        | h: 157 cm | w:  75   kg
